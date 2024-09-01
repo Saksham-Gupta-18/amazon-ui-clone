@@ -209,3 +209,28 @@
     font-weight: 700;
     cursor: pointer;
 }
+
+.hero_section {
+    background-image: url(Images/hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.hero_msg {
+    background-color: #F5F6F6;
+    height: 40px;
+    font-size: 16px;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.hero_msg p a {
+    text-decoration: none;
+    color: #007185;
+}
