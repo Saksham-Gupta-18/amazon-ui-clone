@@ -307,6 +307,7 @@
 
 .wrapper_images::-webkit-scrollbar {
     height: 5px;
+    cursor: pointer;
 }
 
 .wrapper_images::-webkit-scrollbar-thumb {
