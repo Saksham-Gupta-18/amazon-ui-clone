@@ -239,6 +239,7 @@
     justify-content: space-evenly;
     background-color: #e2e7e6;
     flex-wrap: wrap;
+    padding-bottom: 15px;
 }
 
 .box {
@@ -324,4 +325,119 @@
 
 .wrapper p:hover {
     color: #FF9900;
+}
+
+.foot_panel {
+    height: 50px;
+    background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.foot_panel_2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.foot_panel_2 ul a {
+    display: block;
+    font-size: 16px;
+    color: #D7DBDD;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.foot_panel_2 ul a:hover {
+    text-decoration: underline;
+}
+
+.foot_panel_2 ul p {
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.foot_panel_3 {
+    background-color: #222f3d;
+    margin-top: 1px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer_logo {
+    background-image: url(Images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+
+.foot_panel_4 {
+    background-color: #131A22;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.foot_panel_4_sub {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-size: 12px;
+}
+
+.foot_panel_4_sub ul a {
+    display: block;
+    cursor: pointer;
+}
+
+.foot_panel_4_sub ul a:hover {
+    text-decoration: underline;
+}
+
+.foot_panel_4_sub ul a:first-child {
+    color: #D0DDDD;
+    font-weight: 700;
+}
+
+
+.foot_panel_4_sub ul a:last-child {
+    color: #888;
+}
+
+.foot_panel_5 {
+    font-size: 14px;
+    background-color: #131A22;
+    height: 50px;
+    color: #D0DDDD;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+.foot_panel_5_sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot_panel_5_sub p {
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.foot_panel_5 p {
+    margin-top: 5px;
 }
